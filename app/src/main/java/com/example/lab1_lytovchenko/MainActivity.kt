@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
             val s2 = num2.text.toString()
             val checkedId = radioGroup.checkedRadioButtonId
 
-            // Перевірка, чи всі дані введені (завдання №6)
             if (s1.isEmpty() || s2.isEmpty() || checkedId == -1) {
                 Toast.makeText(this, "Будь ласка, завершіть введення всіх даних!", Toast.LENGTH_LONG).show()
             } else {
